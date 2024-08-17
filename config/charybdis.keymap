@@ -78,9 +78,9 @@
         Mouse {
             bindings = <
 &none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &none         &none       &trans     &mkp MCLK     &trans        &trans        &none
-&bootloader  &trans        &trans        &trans        &trans     &trans        &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
+&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mkp MB5   &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &kp PG_UP     &none       &mkp MB4   &mkp MCLK     &mkp MB5      &trans        &none
+&bootloader  &trans        &trans        &trans        &mkp MB4   &kp PG_DN     &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
                                          &trans        &trans     &trans        &mkp RCLK   &mkp LCLK
                                                        &none      &trans        &none
             >;
