@@ -45,7 +45,7 @@
 &kp ESC         &kp N1       &kp N2            &kp N3    &kp N4         &kp N5       &kp N6          &kp N7          &kp N8     &kp N9             &kp N0         &kp BSPC
 &kp TAB         &kp Q        &kp W             &kp F     &kp P          &kp B        &kp J           &kp L           &kp U      &kp Y              &kp SEMICOLON  &kp BACKSLASH
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_SHIFT R  &lt 2 S   &lt 1 T        &kp G        &kp M           &lt 1 N         &lt 2 E    &mt RIGHT_SHIFT I  &mt RCTRL O    &kp APOS
-&kp LCTRL       &kp Z        &kp X             &kp C     &kp D          &kp V        &kp K           &kp H           &kp COMMA  &kp DOT            &lt 3 SLASH    &kp DELETE
+&kp LCTRL       &kp Z        &kp X             &kp C     &kp D          &kp V        &kp K           &kp H           &kp COMMA  &kp DOT            &kp SLASH      &kp DELETE
                                                &kp LGUI  &mt LALT BSPC  &mo 3        &mt RGUI RET    &mt RALT SPACE
                                                          &kp LEFT_ALT   &kp SPACE    &kp DOWN_ARROW
             >;
@@ -66,12 +66,12 @@
 
         layer_2 {
             bindings = <
-&kp F12           &kp F1          &kp F2    &kp F3         &kp F4    &kp F5       &kp F6    &kp F7     &kp F8    &kp F9    &kp F10  &kp F11
-&kp LS(GRAVE)     &kp ESC         &kp AT    &kp LT         &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kt LBRC  &kp RBRC  &kp DEL  &trans
-&kp LEFT_CONTROL  &kp GRAVE       &kp EXCL  &kp UNDER      &kp PLUS  &kp EQUAL    &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp SQT  &trans
-&kp LEFT_SHIFT    &kp TILDE       &trans    &kp SLASH      &kp STAR  &kp BSLH     &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &kt DQT  &trans
-                                            &trans         &trans    &trans       &trans    &trans
-                                                           &none    &none       &none
+&kp F12           &kp F1     &kp F2    &kp F3     &kp F4    &kp F5       &kp F6    &kp F7     &kp F8    &kp F9    &kp F10  &kp F11
+&kp LS(GRAVE)     &kp ESC    &kp AT    &kp LT     &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kt LBRC  &kp RBRC  &kp DEL  &trans
+&kp LEFT_CONTROL  &kp GRAVE  &kp EXCL  &kp UNDER  &kp PLUS  &kp EQUAL    &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp SQT  &trans
+&kp LEFT_SHIFT    &kp TILDE  &trans    &kp SLASH  &kp STAR  &kp BSLH     &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &kt DQT  &trans
+                                       &trans     &trans    &trans       &trans    &trans
+                                                  &none     &none        &none
             >;
         };
 
