@@ -58,7 +58,7 @@
 &kp TILDE         &kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp DOLLAR  &kp PERCENT          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
 &kp GRAVE         &kp ESC          &kp HOME  &kp UP      &kp END     &kp C_VOLUME_UP      &kp PLUS   &kp N7         &kp N8        &kp N9                &kp MINUS              &kp DEL
 &kp LEFT_CONTROL  &kp TAB          &kp LEFT  &kp DOWN    &kp RIGHT   &kp C_VOLUME_DOWN    &kp ASTRK  &kp N4         &kp N5        &kp N6                &kp KP_DIVIDE          &kp PAGE_UP
-&kp LSHFT         &to 4            &none     &none       &none       &kt C_MUTE           &kp EQUAL  &kp N1         &kp N2        &kp N3                &kp DOT                &kp PAGE_DOWN
+&kp LSHFT         &none            &none     &none       &none       &kt C_MUTE           &kp EQUAL  &kp N1         &kp N2        &kp N3                &kp DOT                &kp PAGE_DOWN
                                              &trans      &kp BSPC    &trans               &trans     &kp N0
                                                          &none       &none                &trans
             >;
@@ -67,11 +67,11 @@
         layer_2 {
             bindings = <
 &kp F12           &kp F1          &kp F2    &kp F3         &kp F4    &kp F5       &kp F6    &kp F7     &kp F8    &kp F9    &kp F10  &kp F11
-&kp LS(GRAVE)     &kp LS(ESCAPE)  &kp AT    &kp LT         &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kt LBRC  &kp RBRC  &kp DEL  &trans
-&kp LEFT_CONTROL  &kp LS(GRAVE)   &kp EXCL  &kp UNDER      &kp PLUS  &kp EQUAL    &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp SQT  &trans
-&kp LEFT_SHIFT    &kp TILDE       &trans    &kp LS(SLASH)  &kp STAR  &kp BSLH     &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &kt DQT  &trans
+&kp LS(GRAVE)     &kp ESC         &kp AT    &kp LT         &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kt LBRC  &kp RBRC  &kp DEL  &trans
+&kp LEFT_CONTROL  &kp GRAVE       &kp EXCL  &kp UNDER      &kp PLUS  &kp EQUAL    &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp SQT  &trans
+&kp LEFT_SHIFT    &kp TILDE       &trans    &kp SLASH      &kp STAR  &kp BSLH     &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &kt DQT  &trans
                                             &trans         &trans    &trans       &trans    &trans
-                                                           &trans    &trans       &none
+                                                           &none    &none       &none
             >;
         };
 
@@ -82,7 +82,7 @@
 &none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &none         &none       &trans     &mkp MCLK     &trans        &trans        &none
 &bootloader  &trans        &trans        &trans        &trans     &trans        &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
                                          &trans        &trans     &trans        &mkp RCLK   &mkp LCLK
-                                                       &none      &trans        &trans
+                                                       &none      &trans        &none
             >;
         };
 
