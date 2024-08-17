@@ -16,7 +16,7 @@
 
         escc {
             bindings = <&kp ESC>;
-            key-positions = <17 16>;
+            key-positions = <18 19>;
             layers = <0>;
         };
 
