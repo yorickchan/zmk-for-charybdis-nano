@@ -23,14 +23,8 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <31 30>;
+            key-positions = <31 32>;
             bindings = <&kp ESC>;
-        };
-
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <19 18>;
-            bindings = <&kp LGUI>;
         };
 
         combo_fullscreen {
@@ -145,7 +139,7 @@
 &kp TAB         &kp Q        &kp W             &kp F    &kp P         &kp B                &kp J           &kp L           &kp U      &kp Y              &kp SEMICOLON  &kp BACKSLASH
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_SHIFT R  &lt 2 S  &lt 1 T       &kp G                &kp M           &lt 1 N         &lt 2 E    &mt RIGHT_SHIFT I  &mt RCTRL O    &kp APOS
 &kp LCTRL       &kp Z        &kp X             &kp C    &kp D         &kp V                &kp K           &kp H           &kp COMMA  &kp DOT            &kp SLASH      &kp DELETE
-                                               &tog 3   &kp LEFT_GUI  &mt LEFT_ALT BSPC    &mt RGUI RET    &mt RALT SPACE
+                                               &mo 3    &kp LEFT_GUI  &mt LEFT_ALT BSPC    &mt RGUI RET    &mt RALT SPACE
                                                         &kp LEFT_ALT  &kp SPACE            &kp DOWN_ARROW
             >;
 
@@ -176,12 +170,12 @@
 
         Mouse {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
-&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mkp MB5   &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &kp PG_UP     &none       &mkp MB4   &mkp MCLK     &mkp MB5      &trans        &none
-&bootloader  &trans        &trans        &trans        &mkp MB4   &kp PG_DN     &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
-                                         &trans        &trans     &trans        &mkp RCLK   &mkp LCLK
-                                                       &none      &trans        &none
+&none        &none         &none         &none         &none      &none                &none       &none      &none         &none         &none         &none
+&none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mkp MB5   &bt BT_CLR           &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &kp K_SCROLL_UP      &none       &mkp MB4   &mkp MCLK     &mkp MB5      &trans        &none
+&bootloader  &trans        &trans        &trans        &mkp MB4   &kp K_SCROLL_DOWN    &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
+                                         &trans        &trans     &trans               &mkp RCLK   &mkp LCLK
+                                                       &none      &trans               &none
             >;
         };
 
