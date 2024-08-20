@@ -10,31 +10,126 @@
     quick-tap-ms = <150>;
 };
 
+&mt {
+   flavor = "tap-preferred";
+   tapping_term_ms = <180>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
 
-        escc {
-            bindings = <&kp ESC>;
-            key-positions = <32 31>;
-            layers = <0>;
-        };
+         // right hand
+      combo_esc {
+          timeout-ms = <50>;
+          key-positions = <16 17>;
+          bindings = <&kp ESC>;
+      };
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <27 28>;
-            layers = <0>;
-        };
+      combo_lgui {
+          timeout-ms = <50>;
+          key-positions = <5 6>;
+          bindings = <&kp LGUI>;
+      };
 
-        underscore {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <26 27>;
-        };
+      combo_fullscreen {
+          timeout-ms = <50>;
+          key-positions = <25 26>;
+          bindings = <&kp F11>;
+      };
 
-        caps {
-            bindings = <&kp CAPS>;
-            key-positions = <14 15>;
-        };
+      combo_wkspc_up {
+          timeout-ms = <50>;
+          key-positions = <9 19>;
+          bindings = <&kp LC(UP)>;
+      };
+
+      combo_wkspc_down {
+          timeout-ms = <50>;
+          key-positions = <19 29>;
+          bindings = <&kp LC(DOWN)>;
+      };
+
+      combo_win_up {
+          timeout-ms = <50>;
+          key-positions = <7 8>;
+          bindings = <&kp LS(LG(UP))>;
+      };
+
+      combo_win_down {
+          timeout-ms = <50>;
+          key-positions = <27 28>;
+          bindings = <&kp LS(LG(DOWN))>;
+      };
+
+      combo_win_left {
+          timeout-ms = <50>;
+          key-positions = <17 18>;
+          bindings = <&kp LS(LG(LEFT))>;
+      };
+
+      combo_win_right {
+          timeout-ms = <50>;
+          key-positions = <9 18>;
+          bindings = <&kp LS(LG(RIGHT))>;
+      };
+
+      combo_rdelete {
+          timeout-ms = <50>;
+          key-positions = <15 16>;
+          bindings = <&kp DELETE>;
+      };
+
+      // left hand
+      combo_zoomin {
+          timeout-ms = <50>;
+          key-positions = <3 4>;
+          bindings = <&kp LC(PLUS)>;
+      };
+
+      combo_zoomout {
+          timeout-ms = <50>;
+          key-positions = <23 24>;
+          bindings = <&kp LC(MINUS)>;
+      };
+
+      combo_pgdn {
+          timeout-ms = <50>;
+          key-positions = <22 23>;
+          bindings = <&kp PG_DN>;
+      };
+
+      combo_pgup {
+          timeout-ms = <50>;
+          key-positions = <2 3>;
+          bindings = <&kp PG_UP>;
+      };
+
+      combo_ldelete {
+          timeout-ms = <50>;
+          key-positions = <13 14>;
+          bindings = <&kp DELETE>;
+      };
+
+      // symbols
+      combo_underscore {
+          timeout-ms = <50>;
+          key-positions = <11 12>;
+          bindings = <&kp UNDERSCORE>;
+      };
+
+      combo_minus {
+          timeout-ms = <50>;
+          key-positions = <12 13>;
+          bindings = <&kp MINUS>;
+      };
+
+      // others
+      combo_capswd {
+          timeout-ms = <50>;
+          key-positions = <2 7>;
+          bindings = <&caps_word>;
+      };
     };
 
     keymap {
