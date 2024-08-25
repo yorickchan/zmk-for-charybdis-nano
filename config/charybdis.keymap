@@ -138,7 +138,7 @@
 &kp ESC         &kp N1       &kp N2            &kp N3   &kp N4        &kp N5               &kp N6          &kp N7          &kp N8     &kp N9             &kp N0         &kp BSPC
 &kp TAB         &kp Q        &kp W             &kp F    &kp P         &kp B                &kp J           &kp L           &kp U      &kp Y              &kp SEMICOLON  &kp BACKSLASH
 &kp LEFT_SHIFT  &mt LCTRL A  &mt LEFT_SHIFT R  &lt 2 S  &lt 1 T       &kp G                &kp M           &lt 1 N         &lt 2 E    &mt RIGHT_SHIFT I  &mt RCTRL O    &kp APOS
-&kp LCTRL       &kp Z        &kp X             &kp C    &kp D         &kp V                &kp K           &kp H           &kp COMMA  &kp DOT            &kp SLASH      &kp DELETE
+&kp LCTRL       &lt 3 Z      &kp X             &kp C    &kp D         &kp V                &kp K           &kp H           &kp COMMA  &kp DOT            &lt 3 SLASH    &kp DELETE
                                                &sl 3    &kp LEFT_GUI  &mt LEFT_ALT BSPC    &mt RGUI RET    &mt RALT SPACE
                                                         &kp LEFT_ALT  &kp SPACE            &kp DOWN_ARROW
             >;
