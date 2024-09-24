@@ -177,6 +177,7 @@
                                          &trans        &trans     &trans        &mkp RCLK   &mkp LCLK
                                                        &none      &trans        &none
             >;
+            trackball-bindings = <&tsl>;//滚轮层
         };
 
         layer_4 {
