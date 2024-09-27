@@ -172,12 +172,11 @@
             bindings = <
 &none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mkp MB5   &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &kp UP        &none       &mkp MB4   &mkp MCLK     &mkp MB5      &trans        &none
-&bootloader  &trans        &trans        &trans        &mkp MB4   &kp DOWN      &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
+&none        &trans        &mkp RCLK     &mkp MCLK     &mkp LCLK  &mo 4         &none       &mkp MB4   &mkp MCLK     &mkp MB5      &trans        &none
+&bootloader  &trans        &trans        &trans        &mkp MB4   &mo 5         &trans      &mkp LCLK  &mkp RCLK     &mkp RCLK     &trans        &bootloader
                                          &trans        &trans     &trans        &mkp RCLK   &mkp LCLK
                                                        &none      &trans        &none
             >;
-            trackball-bindings = <&tsl>;//滚轮层
         };
 
         layer_4 {
@@ -189,7 +188,6 @@
                            &trans     &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
                                       &trans     &trans       &trans
             >;
-
             trackball-bindings = <&tsl>;//滚轮层
         };
 
