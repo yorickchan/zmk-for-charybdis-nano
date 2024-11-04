@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
 &lt {
@@ -160,7 +159,7 @@
         layer_2 {
             bindings = <
 &kp F12           &kp F1     &kp F2    &kp F3     &kp F4    &kp F5       &kp F6    &kp F7     &kp F8    &kp F9    &kp F10  &kp F11
-&kp LS(GRAVE)     &kp ESC    &kp AT    &kp LT     &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kt LBRC  &kp RBRC  &kp DEL  &trans
+&kp LS(GRAVE)     &kp ESC    &kp AT    &kp LT     &kp GT    &kp PRCNT    &kp AMPS  &kp CARET  &kp LBRC  &kp RBRC  &kp DEL  &trans
 &kp LEFT_CONTROL  &kp GRAVE  &kp EXCL  &kp UNDER  &kp PLUS  &kp EQUAL    &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp SQT  &trans
 &kp LEFT_SHIFT    &kp TILDE  &none     &kp SLASH  &kp STAR  &kp BSLH     &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &kp DQT  &trans
                                        &trans     &trans    &trans       &trans    &trans
